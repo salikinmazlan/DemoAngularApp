@@ -1,0 +1,36 @@
+<div class = "col-md-6 offset-md-3">
+    <h3> Update Employee </h3>
+    <br>
+    <form (ngSubmit) = "onSubmit()">
+        <div class = "form-group">
+            <label>Name</label>
+            <input type="text" class = "form-control" id = "Name"
+            [(ngModel)] = "employee.name" name = "name">
+        </div>
+    
+        <br>
+        <div class = "form-group">
+            <label>Age</label>
+            <input type="text" class = "form-control" id = "Age"
+            [(ngModel)] = "employee.age" name = "age">
+        </div>
+    
+        <br>
+        <div class = "form-group">
+            <label>Role</label>
+            <input type="text" class = "form-control" id = "Role"
+            [(ngModel)] = "employee.role" name = "role">
+        </div>
+    
+        <br>
+        <div class = "form-group">
+            <label>Status</label>
+            <input type="text" class = "form-control" id = "Status"
+            [(ngModel)] = "employee.status" name = "status">
+        </div>
+    
+        <br>
+        <button class = "btn btn-success" type = "submit" >Submit</button>
+    </form>
+    </div>
+    
